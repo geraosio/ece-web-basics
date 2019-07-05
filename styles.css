@@ -102,3 +102,45 @@ main {
   right: 10%;
   bottom: 10%;
 }
+
+/* Todos */
+
+.todos-container {
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.todo-item-container {
+  width: 100%;
+  position: relative;
+  background-color: rgb(210, 210, 210);
+  padding: 0.25em;
+  border-radius: 2px;
+  border: 1px solid rgb(163, 163, 163);
+}
+
+.todo-item-status {
+  padding-left: 1em;
+  padding-right: 1em;
+  border-right: 1px solid black;
+}
+
+.todo-item-title {
+  margin-left: 1em;
+  font-size: 1.15em;
+}
+
+.todo-item-userid {
+  font-size: 12px;
+  margin-left: 2em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.todo-item-id {
+  font-size: 0.75em;
+  position: absolute;
+  right: 5%;
+  bottom: 25%;
+}
