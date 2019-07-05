@@ -1,16 +1,41 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Web basics project</title>
     
     <!-- Stylesheets -->
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="active"><a href="#">Albums</a></li>
+          <li><a href="#">Todos</a></li>
+        </ul>
+      </nav>
+    </header>
     
+    <main>
+      <!-- Will be loaded dynamically -->
+      <div class="albums-container">
+        <!-- <div class="album-item-container">
+          <h3 class="album-item-title">Album title</h3>
+          <p class="album-item-userid">User 1</p>
+          <span class="album-item-id">1</span>
+        </div> -->
+      </div>
+      
+      <!-- Will be loaded dynamically -->
+      <div class="todo-item-container">
+        
+      </div>
+    </main>
     
     <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
   </body>
 </html>
